@@ -6,6 +6,15 @@ Current contributors:
 
 Timber Badger
 
+  -Ægir PMCs
+  
+
+
 JasperD123
 
+  -Kriegany Guerillas
+
+  
 Berntsen
+
+  -St. George Rebels

@@ -13,7 +13,7 @@ class cfgFactionClasses
 {
   class NPC_ST_George_Rebels
   {
-    icon="";
+    icon="\npc_common\data\ui\npcs_logo.paa";
     displayName="St. George Rebels";
     side=2;
     priority=1;

@@ -13,7 +13,7 @@ class cfgFactionClasses
 {
   class NPC_Kriegany_Guerrilas
   {
-    icon="";
+    icon="\npc_common\data\ui\npcs_logo_small.paa";
     displayName="Kriegany Guerillas";
     side=2;
     priority=1;

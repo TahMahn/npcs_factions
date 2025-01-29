@@ -13,7 +13,7 @@ class cfgFactionClasses
 {
   class NPC_Aegir_PMC
   {
-    icon="";
+    icon="logo.paa";
     displayName="Ægir PMC";
     side=1;
     priority=1;

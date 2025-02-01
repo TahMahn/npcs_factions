@@ -5,7 +5,7 @@ class cfgPatches
     units[]={"NPC_Kriegany_Team_Leader","NPC_Kriegany_Rifleman","NPC_Kriegany_Antitank","NPC_Kriegany_AntiAir","NPC_Kriegany_Grenadier","NPC_Kriegany_Medic","NPC_Kriegany_Marksman","NPC_Kriegany_Sniper","NPC_Kriegany_Autorifleman","NPC_Kriegany_Machine_Gunner","NPC_Kriegany_Driver","NPC_Kriegany_Pilot","NPC_Kriegany_Engineer","NPC_Kriegany_Offroad_M2","NPC_Kriegany_Offroad","NPC_Kriegany_Van_Cargo","NPC_Kriegany_Van_Transport","NPC_Kriegany_Truck","NPC_Kriegany_M2HB_M3AA","NPC_Kriegany_M2HB_M3","NPC_Kriegany_Mk19_M3","NPC_Kriegany_AW159_Wildcat","NPC_Kriegany_AW159_Wildcat_unarmed"};
     weapons[]={"NPC_hlc_rifle_hk33a2RIS_hlc_muzzle_E1_FlashHiderACE_DBAL_A3_Redrhsusf_acc_g33_xps3","NPC_hlc_pistol_P226R_Elite_hlc_acc_TLR1","NPC_rhs_weap_rpg7_rhs_acc_pgo7v2","NPC_rhs_weap_igla","NPC_hlc_rifle_hk33a2RIS_GL_hlc_muzzle_E1_FlashHiderACE_DBAL_A3_Redrhsusf_acc_g33_xps3","NPC_hlc_rifle_g3a3ris_hlc_muzzle_MAG58_Brakehlc_optic_LeupoldM3A","NPC_hlc_rifle_awcovert_rhsusf_acc_nxs_5522x56_md_sun","NPC_hlc_lmg_minimi_railed_hlc_muzzle_E1_FlashHideroptic_Holosight_blk_F","NPC_hlc_lmg_mk48_rhsusf_acc_ARDEC_M240rhsusf_acc_ELCANbipod_01_F_blk","NPC_hlc_smg_mp5N_tac"};
     requiredVersion=0.1;
-    requiredAddons[]={"acre_sys_bf888s","ace_medical_treatment","A3_Weapons_F","hlcweapons_g3","niaweapons_226","po_factions_me","rhsgref_c_troops","A3_Weapons_F_Items","rhs_c_weapons","hlcweapons_FHAWCovert","hlcweapons_SAW","hlcweapons_mp5","rhsusf_c_troops"};
+    requiredAddons[]={"acre_sys_bf888s","A3_Weapons_F","hlcweapons_g3","niaweapons_226","po_factions_me","rhsgref_c_troops","A3_Weapons_F_Items","rhs_c_weapons","hlcweapons_FHAWCovert","hlcweapons_SAW","hlcweapons_mp5","rhsusf_c_troops"};
   };
 };
 
@@ -14,7 +14,7 @@ class cfgFactionClasses
   class NPC_Kriegany_Guerrilas
   {
     icon="\npc_common\data\ui\npc_logo_small.paa";
-    displayName="Kriegany Guerillas";
+    displayName="[NPC] Kriegany Guerillas";
     side=2;
     priority=1;
   };
@@ -232,8 +232,8 @@ class cfgVehicles
     uniformClass="LOP_U_PMC_tac_orng_plaid";
     weapons[]={"Binocular","NPC_hlc_rifle_hk33a2RIS_hlc_muzzle_E1_FlashHiderACE_DBAL_A3_Redrhsusf_acc_g33_xps3","NPC_hlc_pistol_P226R_Elite_hlc_acc_TLR1","Put","Throw"};
     respawnWeapons[]={"Binocular","NPC_hlc_rifle_hk33a2RIS_hlc_muzzle_E1_FlashHiderACE_DBAL_A3_Redrhsusf_acc_g33_xps3","NPC_hlc_pistol_P226R_Elite_hlc_acc_TLR1","Put","Throw"};
-    items[]={"ACRE_BF888S","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
-    respawnItems[]={"ACRE_BF888S","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
+    items[]={"ACRE_BF888S","FirstAidKit"};
+    respawnItems[]={"ACRE_BF888S","FirstAidKit","FirstAidKit"};
     magazines[]={"rhs_mag_an_m8hc","rhs_mag_an_m8hc","rhs_mag_an_m8hc","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_15Rnd_9x19_JHP_P226","hlc_15Rnd_9x19_JHP_P226","hlc_15Rnd_9x19_JHP_P226","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67"};
     respawnMagazines[]={"rhs_mag_an_m8hc","rhs_mag_an_m8hc","rhs_mag_an_m8hc","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_EPR_HK33","hlc_15Rnd_9x19_JHP_P226","hlc_15Rnd_9x19_JHP_P226","hlc_15Rnd_9x19_JHP_P226","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ItemRadio","ItemGPS","Binocular","rhsgref_Booniehat_alpen","LOP_V_CarrierLite_WDL","rhs_googles_black"};

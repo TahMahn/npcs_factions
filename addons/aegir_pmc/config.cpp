@@ -1161,3 +1161,380 @@ class cfgVehicles
 };
 
 //////////////// Paste cfgGroups after this line //////////////// 
+class cfgGroups
+{  
+  class WEST
+  {
+    name="BLUFOR";
+    class Aegir_PMC
+    {
+      name="Aegir PMC";
+
+      class Infantry
+      {
+        name="Infantry";
+
+        class NPC_B_Command_Team
+        {
+          name="Command Team";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_Commander";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_2IC";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=1;
+            vehicle="NPC_PMC_JTAC";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+        };
+        class NPC_B_Assault_Squad
+        {
+          name="Assault Squad";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_Squad_Lead";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=1;
+            vehicle="NPC_PMC_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=1;
+            vehicle="NPC_PMC_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit4
+          {
+            side=1;
+            vehicle="NPC_PMC_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-20,0};
+          };
+          class Unit5
+          {
+            side=1;
+            vehicle="NPC_PMC_Grenadier";
+            rank="PRIVATE";
+            position[]={0,-25,0};
+          };
+          class Unit6
+          {
+            side=1;
+            vehicle="NPC_PMC_Rifleman_LAT";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit7
+          {
+            side=1;
+            vehicle="NPC_PMC_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-35,0};
+          };
+          class Unit8
+          {
+            side=1;
+            vehicle="NPC_PMC_Marksman";
+            rank="PRIVATE";
+            position[]={0,-40,0};
+          };
+        };
+        class NPC_B_AT_Team
+        {
+          name="AT Team";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_AT_Specialist";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=1;
+            vehicle="NPC_PMC_AT_Specialist_Assistant";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=1;
+            vehicle="NPC_PMC_AT_Specialist_Assistant";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_B_AA_Team
+        {
+          name="AA Team";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_AA_Assistant";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=1;
+            vehicle="NPC_PMC_AA";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=1;
+            vehicle="NPC_PMC_AA_Assistant";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_B_MG_Team
+        {
+          name="MG Team";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_Rifleman_SAW";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=1;
+            vehicle="NPC_PMC_SAW_Assistant";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=1;
+            vehicle="NPC_PMC_SAW_Assistant";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_B_Recon_Team
+        {
+          name="Recon Team";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_Marksman";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=1;
+            vehicle="NPC_PMC_Saboteur";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=1;
+            vehicle="NPC_PMC_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+      };
+      class Motorized
+      {
+        name="Motorized";
+
+        class NPC_B_Motorized_Squad_(M1245)
+        {
+          name="Motorized Squad (M1245)";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_M1245_CROWS_M2";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_M1245_Deploy_CROWS_M2";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_B_Motorized_Squad_(M1238A1)
+        {
+          name="Motorized Squad (M1238A1)";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_M1238A1_ASV_CROWS_M2";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_M1238A1_ASV_CROWS_M2";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_B_Motorized_Recon_Team
+        {
+          name="Motorized Recon Team";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_M1078A1R_SOV";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+        };
+      };
+      class Mechanized
+      {
+        name="Mechanized";
+
+      };
+      class Armored
+      {
+        name="Armored";
+
+      };
+      class SpecOps
+      {
+        name="Special Forces";
+
+      };
+      class Support
+      {
+        name="Support Infantry";
+
+      };
+      class Airborne
+      {
+        name="Airborne";
+
+        class NPC_B_AH_6M_Squadron
+        {
+          name="AH 6M Squadron";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_AH6M_Littlebird";
+            rank="CAPTAIN";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_AH6M_Littlebird";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_B_MH_6M_Squadron
+        {
+          name="MH 6M Squadron";
+          faction="NPC_Aegir_PMC";
+          side=1;
+          class Unit0
+          {
+            side=1;
+            vehicle="NPC_PMC_MH6M_Littlebird";
+            rank="CAPTAIN";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="NPC_PMC_MH6M_Littlebird";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+      };
+      class Air
+      {
+        name="Air";
+
+      };
+    };
+  };
+};

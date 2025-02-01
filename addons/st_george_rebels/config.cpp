@@ -5,7 +5,7 @@ class cfgPatches
     units[]={"NPC_Rebel_Commander","NPC_Cell_Leader","NPC_Doctor","NPC_Rifleman_Light","NPC_Rifleman_Garand","NPC_Rifleman_Light_AT","NPC_Grenadier","NPC_Rocket_Rebel_RPG7","NPC_Mechanic","NPC_Hunter","NPC_Crewman","NPC_Rifleman_Crew","NPC_Rebel_Pilot","NPC_Rebel_Heli_Pilot","NPC_Technical","NPC_Technical_AT","NPC_Technical_HMG","NPC_Rebel_Podnos","NPC_Rebel_BTR_60PB","NPC_Rebel_KrAZ_255B1","NPC_Rebel_ZU_23_2","NPC_Rebel_SPG_9","NPC_Rebel_DSHkM_Minitripod","NPC_Rebel_DShKM","NPC_Rebel_Cessna","NPC_Rebel_Antonov","NPC_Rebel_Mi_8MT_Cargo","NPC_Rebel_Mi8MT"};
     weapons[]={"NPC_rhs_weap_makarov_pm","NPC_rhs_weap_akm_gp25_rhs_acc_dtkakm","NPC_rhs_weap_m70b1","NPC_rhs_weap_akm_rhs_acc_dtkakm","NPC_rhs_weap_m1garand_sa43","NPC_rhs_weap_pm63_rhs_acc_dtkakm","NPC_rhs_weap_rpg75","NPC_rhs_weap_akms_gp25_rhs_acc_dtkakm","NPC_rhs_weap_akms_rhs_acc_dtkakm","NPC_rhs_weap_rpg7","NPC_rhs_weap_aks74u_rhs_acc_pgs64_74u","NPC_rhs_weap_svdp_wd_rhs_acc_pso1m21","NPC_rhs_weap_savz61","NPC_rhs_weap_l1a1_wood_rhsgref_acc_falMuzzle_l1a1","NPC_hlc_rifle_aks74u_rhs_acc_dtk2"};
     requiredVersion=0.1;
-    requiredAddons[]={"ace_medical_treatment","A3_Weapons_F","rhs_c_weapons","rhsgref_c_troops","rhs_c_troops","po_factions_fic","A3_Weapons_F_Items","po_factions_eu","rhsgref_c_weapons","A3_Characters_F","A3_Characters_F_Orange_Headgear","hlcweapons_aks"};
+    requiredAddons[]={"A3_Weapons_F","rhs_c_weapons","rhsgref_c_troops","rhs_c_troops","po_factions_fic","A3_Weapons_F_Items","po_factions_eu","rhsgref_c_weapons","A3_Characters_F","A3_Characters_F_Orange_Headgear","hlcweapons_aks"};
   };
 };
 
@@ -14,7 +14,7 @@ class cfgFactionClasses
   class NPC_ST_George_Rebels
   {
     icon="\npc_common\data\ui\npc_logo.paa";
-    displayName="St. George Rebels";
+    displayName="[NPC] St. George Rebels";
     side=2;
     priority=1;
   };
@@ -261,8 +261,8 @@ class cfgVehicles
     uniformClass="rhsgref_uniform_TLA_2";
     weapons[]={"Binocular","NPC_rhs_weap_makarov_pm","Put","Throw"};
     respawnWeapons[]={"Binocular","NPC_rhs_weap_makarov_pm","Put","Throw"};
-    items[]={"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
-    respawnItems[]={"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
+    items[]={"FirstAidKit"};
+    respawnItems[]={"FirstAidKit"};
     magazines[]={"rhs_mag_rdg2_black","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S"};
     respawnMagazines[]={"rhs_mag_rdg2_black","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ItemRadio","Binocular","LOP_H_SLA_Beret","rhs_vest_pistol_holster"};
@@ -295,10 +295,8 @@ class cfgVehicles
     uniformClass="rhsgref_uniform_TLA_1";
     weapons[]={"NPC_rhs_weap_m70b1","Put","Throw"};
     respawnWeapons[]={"NPC_rhs_weap_m70b1","Put","Throw"};
-    items[]={"FirstAidKit","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_surgicalKit","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_bloodIV_500","ACE_bloodIV_500","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine"};
-    respawnItems[]={"FirstAidKit","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_suture","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_surgicalKit","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_bloodIV_500","ACE_bloodIV_500","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine"};
-    magazines[]={"ACE_painkillers","ACE_painkillers","ACE_painkillers","ACE_painkillers","ACE_painkillers"};
-    respawnMagazines[]={"ACE_painkillers","ACE_painkillers","ACE_painkillers","ACE_painkillers","ACE_painkillers"};
+    items[]={"FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","MediKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","MediKit"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ItemRadio","LOP_H_Ushanka","rhsgref_chicom"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","Itemwatch","ItemRadio","LOP_H_Ushanka","rhsgref_chicom"};
     backpack="NPC_Doctor_pack";
@@ -644,17 +642,8 @@ class cfgVehicles
     };
     class TransportItems
     {
-     class _xx_ACE_splint {count=10;name="ACE_splint";};
-     class _xx_ACE_suture {count=8;name="ACE_suture";};
-     class _xx_ACE_tourniquet {count=5;name="ACE_tourniquet";};
-     class _xx_ACE_surgicalKit {count=1;name="ACE_surgicalKit";};
-     class _xx_ACE_morphine {count=10;name="ACE_morphine";};
-     class _xx_ACE_fieldDressing {count=12;name="ACE_fieldDressing";};
-     class _xx_ACE_elasticBandage {count=10;name="ACE_elasticBandage";};
-     class _xx_ACE_packingBandage {count=10;name="ACE_packingBandage";};
-     class _xx_ACE_quikclot {count=10;name="ACE_quikclot";};
-     class _xx_ACE_bloodIV_500 {count=2;name="ACE_bloodIV_500";};
-     class _xx_ACE_epinephrine {count=5;name="ACE_epinephrine";};
+     class _xx_FirstAidKit {count=8;name="FirstAidKit";};
+     class _xx_MediKit {count=10;name="ACE_elasticBandage";};
     };
     class TransportWeapons{};
   };

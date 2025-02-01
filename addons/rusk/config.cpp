@@ -5,7 +5,7 @@ class cfgPatches
     units[]={"NPC_Rusk_Officer","NPC_Rusk_Rifleman","NPC_Rusk_Team_Lead","NPC_RusK_Squad_Lead","NPC_Rusk_2IC","NPC_Rusk_Grenadier","NPC_Rusk_AT_Specialist","NPC_Rusk_AA_Specialist","NPC_Rusk_Autorifleman","NPC_Rusk_Machinegunner","NPC_Rusk_Marksman","NPC_Rusk_Sniper","NPC_Rusk_Engineer","NPC_Rusk_Explosive_Specialist","NPC_Rusk_JTAC","NPC_Rusk_UAV_Operator","NPC_Rusk_Tank_Crew","NPC_Rusk_Driver","NPC_Rusk_Heli_Pilot","NPC_Rusk_Pilot","NPC_Rusk_Medic","NPC_Rusk_GAZ_233011","NPC_Rusk_GAZ_233014","NPC_Rusk_BTR_80","NPC_Rusk_BTR_80A","NPC_Rusk_BMP_2","NPC_Rusk_T_72B","NPC_Rusk_T_34_85M","NPC_Rusk_Ural_4320","NPC_Rusk_Kamaz_Medical","NPC_Rusk_Kamaz_open","NPC_Rusk_Mi_8MT","NPC_Rusk_Mi_8T","NPC_Rusk_UH_1H_Gunship","NPC_Rusk_UH_1H","NPC_Rusk_UH_1Y_Unarmed","NPC_Rusk_T_50","NPC_Rusk_Su_25","NPC_Rusk_MiG_29S","NPC_Rusk_Antonov_An_2","NPC_Rusk_BMK_Tug","NPC_Rusk_Assault_boat"};
     weapons[]={"NPC_hlc_rifle_aku12_rhs_acc_dtk1983HLC_optic_DocterR","NPC_rhs_weap_6p53","NPC_hlc_rifle_ak12_rhs_acc_dtk1983rhs_acc_perst3rhs_acc_okp7_picatinny","NPC_hlc_rifle_ak12_rhs_acc_dtk1983rhs_acc_perst3hlc_optic_ATACR_Offset","NPC_hlc_rifle_ak12GL_rhs_acc_dtk1983rhs_acc_perst3rhs_acc_okp7_picatinny","NPC_rhs_weap_rpg7","NPC_rhs_weap_igla","NPC_hlc_rifle_RPK12_rhs_acc_dtk1983rhs_acc_perst3rhs_acc_okp7_picatinny","NPC_rhs_weap_pkp_rhs_acc_pkas","NPC_rhs_weap_makarov_pm","NPC_rhs_weap_svdp_npz_rhs_acc_tgpvrhsusf_acc_M8541_low","NPC_rhs_weap_t5000_rhsusf_acc_nxs_5522x56_md_sunrhs_acc_harris_swivel","NPC_rhs_weap_aks74u_rhs_acc_pgs64_74u"};
     requiredVersion=0.1;
-    requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","A3_Weapons_F_Mark","hlcweapons_aks","rhs_c_weapons","rhs_c_troops","ace_medical_treatment","acre_sys_prc343","A3_Drones_F_Weapons_F_Gamma_Items","A3_Weapons_F_Exp","A3_Characters_F"};
+    requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","A3_Weapons_F_Mark","hlcweapons_aks","rhs_c_weapons","rhs_c_troops","acre_sys_prc343","A3_Drones_F_Weapons_F_Gamma_Items","A3_Weapons_F_Exp","A3_Characters_F"};
   };
 };
 
@@ -14,7 +14,7 @@ class cfgFactionClasses
   class NPC_Rusk
   {
     icon="\npc_common\data\ui\npc_logo.paa";
-    displayName="Rusk";
+    displayName="[NPC] Rusk Army";
     side=0;
     priority=1;
   };
@@ -309,8 +309,8 @@ class cfgVehicles
     uniformClass="rhs_uniform_afghanka_vsr_3";
     weapons[]={"NPC_hlc_rifle_ak12_rhs_acc_dtk1983rhs_acc_perst3rhs_acc_okp7_picatinny","Put","Throw"};
     respawnWeapons[]={"NPC_hlc_rifle_ak12_rhs_acc_dtk1983rhs_acc_perst3rhs_acc_okp7_picatinny","Put","Throw"};
-    items[]={"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet","ACRE_PRC343_ID_1"};
-    respawnItems[]={"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet","ACRE_PRC343_ID_1"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
     magazines[]={"hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","rhs_mag_rgn","rhs_mag_rgn","rhs_mag_rgn","rhs_mag_rgn","rhs_mag_rgn","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_mag_rdg2_black"};
     respawnMagazines[]={"hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","hlc_30Rnd_545x39_EP_ak","rhs_mag_rgn","rhs_mag_rgn","rhs_mag_rgn","rhs_mag_rgn","rhs_mag_rgn","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_mag_rdg2_black"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","rhs_6b7_1m_emr_ess","rhs_6b23_6sh92"};

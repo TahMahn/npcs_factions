@@ -3,7 +3,7 @@ class CfgPatches
   class NPC_Common
   {
     // Meta information for editor
-    name = "NPCs Factions Common";
+    name = "NPCs Factions Common Library";
     author = "Berntsen";
     url = "https://arma.npcs.games";
 

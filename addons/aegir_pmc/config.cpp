@@ -14,7 +14,7 @@ class cfgFactionClasses
   class NPC_Aegir_PMC
   {
     icon="\npc_common\data\ui\npc_logo_small.paa";
-    displayName="Ægir PMC";
+    displayName="[NPC] Ægir PMC";
     side=1;
     priority=1;
   };

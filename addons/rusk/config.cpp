@@ -1056,3 +1056,860 @@ class cfgVehicles
 };
 
 //////////////// Paste cfgGroups after this line //////////////// 
+class cfgGroups
+{  
+  class EAST
+  {
+    name="OPFOR";
+    class Rusk
+    {
+      name="Rusk";
+
+      class Infantry
+      {
+        name="Infantry";
+
+        class NPC_O_Command_Team
+        {
+          name="Command Team";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Officer";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_2IC";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_UAV_Operator";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_Medic";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_O_Assault_Squad
+        {
+          name="Assault Squad";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_RusK_Squad_Lead";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Medic";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit4
+          {
+            side=0;
+            vehicle="NPC_Rusk_Autorifleman";
+            rank="PRIVATE";
+            position[]={0,-20,0};
+          };
+          class Unit5
+          {
+            side=0;
+            vehicle="NPC_Rusk_Grenadier";
+            rank="PRIVATE";
+            position[]={0,-25,0};
+          };
+          class Unit6
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit7
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-35,0};
+          };
+          class Unit8
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-40,0};
+          };
+          class Unit9
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+        };
+        class NPC_O_AT_Support_Squad
+        {
+          name="AT Support Squad";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_RusK_Squad_Lead";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Medic";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_AT_Specialist";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_AT_Specialist";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit4
+          {
+            side=0;
+            vehicle="NPC_Rusk_Explosive_Specialist";
+            rank="PRIVATE";
+            position[]={0,-20,0};
+          };
+          class Unit5
+          {
+            side=0;
+            vehicle="NPC_Rusk_Machinegunner";
+            rank="PRIVATE";
+            position[]={0,-25,0};
+          };
+          class Unit6
+          {
+            side=0;
+            vehicle="NPC_Rusk_Marksman";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit7
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-35,0};
+          };
+          class Unit8
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-40,0};
+          };
+          class Unit9
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+        };
+        class NPC_O_AA_Support_Squad
+        {
+          name="AA Support Squad";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_RusK_Squad_Lead";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Medic";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_Explosive_Specialist";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_Machinegunner";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit4
+          {
+            side=0;
+            vehicle="NPC_Rusk_Marksman";
+            rank="PRIVATE";
+            position[]={0,-20,0};
+          };
+          class Unit5
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-25,0};
+          };
+          class Unit6
+          {
+            side=0;
+            vehicle="NPC_Rusk_AA_Specialist";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit7
+          {
+            side=0;
+            vehicle="NPC_Rusk_AA_Specialist";
+            rank="PRIVATE";
+            position[]={0,-35,0};
+          };
+          class Unit8
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-40,0};
+          };
+          class Unit9
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+        };
+        class NPC_O_Assault_Team
+        {
+          name="Assault Team";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-5,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_Grenadier";
+            rank="PRIVATE";
+            position[]={0,-10,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+      };
+      class Motorized
+      {
+        name="Motorized";
+
+        class NPC_O_Motorized_Squad_(GAZ)
+        {
+          name="Motorized Squad (GAZ)";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_GAZ_233011";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_GAZ_233014";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_O_Motorized_Squad_(Kamaz)
+        {
+          name="Motorized Squad (Kamaz)";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Kamaz_open";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+        };
+        class NPC_O_Motorized_Squad_(Ural)
+        {
+          name="Motorized Squad (Ural)";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Ural_4320";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+        };
+        class NPC_O_T72_Section
+        {
+          name="T72 Section";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_T_72B";
+            rank="COLONEL";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_T_72B";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+      };
+      class Mechanized
+      {
+        name="Mechanized";
+
+        class NPC_O_BMP_Section
+        {
+          name="BMP Section";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_BMP_2";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_BMP_2";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_O_BTR_80_Section
+        {
+          name="BTR 80 Section";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_BTR_80";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_BTR_80";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_O_BTR_80A_Section
+        {
+          name="BTR 80A Section";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_BTR_80A";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_BTR_80A";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_O_Mechanized_(BMP_2)
+        {
+          name="Mechanized (BMP 2)";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_BMP_2";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+        };
+        class NPC_O_Mechanized_Squad_(BTR_80)
+        {
+          name="Mechanized Squad (BTR 80)";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_BTR_80";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+        };
+        class NPC_O_Mechanized_Squad_(BTR_80A)
+        {
+          name="Mechanized Squad (BTR 80A)";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_BTR_80A";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+        };
+      };
+      class Armored
+      {
+        name="Armored";
+
+        class NPC_O_T34_Section
+        {
+          name="T34 Section";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_T_34_85M";
+            rank="COLONEL";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_T_34_85M";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+      };
+      class SpecOps
+      {
+        name="Special Forces";
+
+        class NPC_O_JTAC_Team
+        {
+          name="JTAC Team";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_JTAC";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_Marksman";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="COLONEL";
+            position[]={0,-45,0};
+          };
+        };
+        class NPC_O_Sniper_Team
+        {
+          name="Sniper Team";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Sniper";
+            rank="COLONEL";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_O_Recon_Team
+        {
+          name="Recon Team";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="COLONEL";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Marksman";
+            rank="COLONEL";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_Marksman";
+            rank="COLONEL";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_Medic";
+            rank="COLONEL";
+            position[]={0,-45,0};
+          };
+        };
+      };
+      class Support
+      {
+        name="Support Infantry";
+
+        class NPC_O_MG_Support_Team
+        {
+          name="MG Support Team";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Machinegunner";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_Autorifleman";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+        };
+        class NPC_O_AA_Support_Team
+        {
+          name="AA Support Team";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_AA_Specialist";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_AA_Specialist";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+        };
+        class NPC_O_AT_Support_Team
+        {
+          name="AT Support Team";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_AT_Specialist";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_AT_Specialist";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_Rifleman";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+        };
+        class NPC_O_Technical_Support_Team
+        {
+          name="Technical Support Team";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Team_Lead";
+            rank="MAJOR";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Engineer";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+          class Unit2
+          {
+            side=0;
+            vehicle="NPC_Rusk_Explosive_Specialist";
+            rank="PRIVATE";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=0;
+            vehicle="NPC_Rusk_UAV_Operator";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+        };
+      };
+      class Airborne
+      {
+        name="Airborne";
+
+        class NPC_O_UH_1H_Gunship_Squadron
+        {
+          name="UH 1H Gunship Squadron";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_UH_1H_Gunship";
+            rank="CAPTAIN";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_UH_1H_Gunship";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_O_UH_1H_Squadron
+        {
+          name="UH 1H Squadron";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_UH_1H";
+            rank="CAPTAIN";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_UH_1H";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+      };
+      class Air
+      {
+        name="Air";
+
+        class NPC_O_T50_Flight
+        {
+          name="T50 Flight";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_T_50";
+            rank="LIEUTENANT";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_T_50";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_O_Su_25_Flight
+        {
+          name="Su 25 Flight";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_Su_25";
+            rank="LIEUTENANT";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_Su_25";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+        class NPC_O_MiG_29S_Flight
+        {
+          name="MiG 29S Flight";
+          faction="NPC_Rusk";
+          side=0;
+          class Unit0
+          {
+            side=0;
+            vehicle="NPC_Rusk_MiG_29S";
+            rank="LIEUTENANT";
+            position[]={0,-0,0};
+          };
+          class Unit1
+          {
+            side=0;
+            vehicle="NPC_Rusk_MiG_29S";
+            rank="PRIVATE";
+            position[]={0,-15,0};
+          };
+        };
+      };
+    };
+  };
+};

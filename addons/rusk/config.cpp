@@ -1370,7 +1370,7 @@ class cfgGroups
       {
         name="Motorized";
 
-        class NPC_O_Motorized_Squad_(GAZ)
+        class NPC_O_Motorized_Squad_GAZ
         {
           name="Motorized Squad (GAZ)";
           faction="NPC_Rusk";
@@ -1390,7 +1390,7 @@ class cfgGroups
             position[]={0,-15,0};
           };
         };
-        class NPC_O_Motorized_Squad_(Kamaz)
+        class NPC_O_Motorized_Squad_Kamaz
         {
           name="Motorized Squad (Kamaz)";
           faction="NPC_Rusk";
@@ -1403,7 +1403,7 @@ class cfgGroups
             position[]={0,-0,0};
           };
         };
-        class NPC_O_Motorized_Squad_(Ural)
+        class NPC_O_Motorized_Squad_Ural
         {
           name="Motorized Squad (Ural)";
           faction="NPC_Rusk";
@@ -1501,7 +1501,7 @@ class cfgGroups
             position[]={0,-15,0};
           };
         };
-        class NPC_O_Mechanized_(BMP_2)
+        class NPC_O_Mechanized_BMP_2
         {
           name="Mechanized (BMP 2)";
           faction="NPC_Rusk";
@@ -1514,7 +1514,7 @@ class cfgGroups
             position[]={0,-0,0};
           };
         };
-        class NPC_O_Mechanized_Squad_(BTR_80)
+        class NPC_O_Mechanized_Squad_BTR_80
         {
           name="Mechanized Squad (BTR 80)";
           faction="NPC_Rusk";
@@ -1527,7 +1527,7 @@ class cfgGroups
             position[]={0,-0,0};
           };
         };
-        class NPC_O_Mechanized_Squad_(BTR_80A)
+        class NPC_O_Mechanized_Squad_BTR_80A
         {
           name="Mechanized Squad (BTR 80A)";
           faction="NPC_Rusk";

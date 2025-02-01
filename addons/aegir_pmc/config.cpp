@@ -1411,7 +1411,7 @@ class cfgGroups
       {
         name="Motorized";
 
-        class NPC_B_Motorized_Squad_(M1245)
+        class NPC_B_Motorized_Squad_M1245
         {
           name="Motorized Squad (M1245)";
           faction="NPC_Aegir_PMC";
@@ -1431,7 +1431,7 @@ class cfgGroups
             position[]={0,-15,0};
           };
         };
-        class NPC_B_Motorized_Squad_(M1238A1)
+        class NPC_B_Motorized_Squad_M1238A1
         {
           name="Motorized Squad (M1238A1)";
           faction="NPC_Aegir_PMC";

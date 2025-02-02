@@ -683,7 +683,7 @@ class cfgGroups
     name="Independent";
     class ST_George_Rebels
     {
-      name="St. George Rebels";
+      name="[NPC] St. George Rebels";
 
       class Infantry
       {

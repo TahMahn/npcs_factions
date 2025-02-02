@@ -1063,7 +1063,7 @@ class cfgGroups
     name="OPFOR";
     class Rusk
     {
-      name="Rusk";
+      name="[NPC] Rusk";
 
       class Infantry
       {

@@ -1168,7 +1168,7 @@ class cfgGroups
     name="BLUFOR";
     class Aegir_PMC
     {
-      name="Aegir PMC";
+      name="[NPC] Ægir PMC";
 
       class Infantry
       {

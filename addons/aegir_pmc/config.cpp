@@ -5,7 +5,8 @@ class cfgPatches
     units[]={"NPC_PMC_Commander","NPC_PMC_AA","NPC_PMC_AA_Assistant","NPC_PMC_Marksman","NPC_PMC_Grenadier","NPC_PMC_AT_Specialist","NPC_PMC_AT_Specialist_Assistant","NPC_PMC_JTAC","NPC_PMC_Rifleman_LAT","NPC_PMC_Rifleman","NPC_PMC_Rifleman_SAW","NPC_PMC_SAW_Assistant","NPC_PMC_2IC","NPC_PMC_Team_Lead","NPC_PMC_Squad_Lead","NPC_PMC_Vehicle_Crew","NPC_PMC_Pilot","NPC_PMC_Crewman","NPC_PMC_MH6M_Littlebird","NPC_PMC_OH6M_Littlebird","NPC_PMC_AH6M_Littlebird","NPC_PMC_MKV_SOC","NPC_PMC_MRZR_4","NPC_PMC_M1239_AUV_CROWS_M2","NPC_PMC_M1245_CROWS_M2","NPC_PMC_M1245_Deploy_CROWS_M2","NPC_PMC_M1238A1_ASV_CROWS_M2","NPC_PMC_M1078A1R_SOV","NPC_PMC_M1084A1R_SOV"};
     weapons[]={"NPC_rhs_weap_hk416d145_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","NPC_rhs_weap_mk18_grip_KAC_bk_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","NPC_rhs_weap_fim92","NPC_rhs_weap_m4a1_blockII_bk_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","NPC_rhs_weap_m14ebrri_rhsusf_acc_nxs_3515x50_mdrhsusf_acc_harris_bipod","NPC_hlc_pistol_P226R_HLC_Optic_Romeo1_RX","NPC_rhs_weap_mk18_m320_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMR","NPC_rhs_weap_m4a1_blockII_bk_rhsusf_acc_nt4_blackrhsusf_acc_g33_T1rhsusf_acc_grip2","NPC_rhs_weap_smaw_rhs_weap_optic_smaw","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_su230a_mrdsrhsusf_acc_grip3","NPC_rhs_weap_m4a1_blockII_bk_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMRrhsusf_acc_grip2","NPC_rhs_weap_M136","NPC_rhs_weap_mk18_KAC_bk_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","NPC_rhs_weap_m249_pip_rhsusf_acc_saw_bipod","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","NPC_rhs_weap_hk416d10_m320_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMR","NPC_rhs_weap_hk416d10_LMT_rhsusf_acc_nt4_tanrhsusf_acc_eotech_552","NPC_rhs_weap_hk416d10_LMT_rhsusf_acc_nt4_blackrhsusf_acc_anpeq15side_bkrhsusf_acc_eotech_552"};
     requiredVersion=0.1;
-    requiredAddons[]={"cTab","acre_sys_prc152","acre_sys_prc343","A3_Weapons_F","ace_vector","rhsusf_c_weapons","A3_Characters_F","CuratorOnly_Characters_F_BLUFOR","niaweapons_226","rhsusf_c_troops"};
+    requiredAddons[]={"acre_sys_prc152","acre_sys_prc343","A3_Weapons_F","ace_vector","rhsusf_c_weapons","A3_Characters_F","CuratorOnly_Characters_F_BLUFOR","niaweapons_226","rhsusf_c_troops"};
+    skipWhenMissingDependencies = 1;
   };
 };
 
@@ -418,8 +419,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"ACE_VectorDay","NPC_rhs_weap_hk416d145_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
     respawnWeapons[]={"ACE_VectorDay","NPC_rhs_weap_hk416d145_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShell","SmokeShell","SmokeShellYellow","SmokeShellYellow","SmokeShellYellow","SmokeShellRed","SmokeShellRed","SmokeShellRed","SmokeShellPurple","SmokeShellPurple","SmokeShellPurple","SmokeShellOrange","SmokeShellOrange","SmokeShellOrange","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellBlue","SmokeShellBlue","SmokeShellBlue","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShell","SmokeShell","SmokeShellYellow","SmokeShellYellow","SmokeShellYellow","SmokeShellRed","SmokeShellRed","SmokeShellRed","SmokeShellPurple","SmokeShellPurple","SmokeShellPurple","SmokeShellOrange","SmokeShellOrange","SmokeShellOrange","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellBlue","SmokeShellBlue","SmokeShellBlue","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ACE_VectorDay","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -435,8 +436,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"NPC_rhs_weap_mk18_grip_KAC_bk_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","NPC_rhs_weap_fim92","Put","Throw"};
     respawnWeapons[]={"NPC_rhs_weap_mk18_grip_KAC_bk_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","NPC_rhs_weap_fim92","Put","Throw"};
-    items[]={"ACRE_PRC343","ACRE_PRC152","ItemcTab","ItemAndroid"};
-    respawnItems[]={"ACRE_PRC343","ACRE_PRC152","ItemcTab","ItemAndroid"};
+    items[]={"ACRE_PRC343","ACRE_PRC152"};
+    respawnItems[]={"ACRE_PRC343","ACRE_PRC152"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","SmokeShell","SmokeShell","SmokeShellGreen","rhs_fim92_mag"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","SmokeShell","SmokeShell","SmokeShellGreen","rhs_fim92_mag"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","FPGP_2_OpscoreMar_Snakeskin_Tan_ct_2","FPGP_PC_Tan_1","rhsusf_shemagh2_gogg_tan"};
@@ -452,8 +453,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"NPC_rhs_weap_m4a1_blockII_bk_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
     respawnWeapons[]={"NPC_rhs_weap_m4a1_blockII_bk_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
-    items[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
-    respawnItems[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","SmokeShell","SmokeShell","SmokeShellGreen","rhs_fim92_mag","rhs_fim92_mag"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","SmokeShell","SmokeShell","SmokeShellGreen","rhs_fim92_mag","rhs_fim92_mag"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","FPGP_2_OpscoreMar_Snakeskin_Tan_ct_2","FPGP_PC_Tan_4","rhsusf_shemagh2_gogg_tan"};
@@ -486,8 +487,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"NPC_rhs_weap_mk18_m320_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMR","Put","Throw"};
     respawnWeapons[]={"NPC_rhs_weap_mk18_m320_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMR","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_m714_White","rhs_mag_m714_White","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","rhs_mag_m715_Green","rhs_mag_m715_Green","rhs_mag_m713_Red","SmokeShell","SmokeShell","HandGrenade","HandGrenade","ACE_Chemlight_HiWhite","ACE_Chemlight_HiWhite"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_m714_White","rhs_mag_m714_White","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","rhs_mag_m715_Green","rhs_mag_m715_Green","rhs_mag_m713_Red","SmokeShell","SmokeShell","HandGrenade","HandGrenade","ACE_Chemlight_HiWhite","ACE_Chemlight_HiWhite"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -503,8 +504,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"ACE_VectorDay","NPC_rhs_weap_m4a1_blockII_bk_rhsusf_acc_nt4_blackrhsusf_acc_g33_T1rhsusf_acc_grip2","NPC_rhs_weap_smaw_rhs_weap_optic_smaw","Put","Throw"};
     respawnWeapons[]={"ACE_VectorDay","NPC_rhs_weap_m4a1_blockII_bk_rhsusf_acc_nt4_blackrhsusf_acc_g33_T1rhsusf_acc_grip2","NPC_rhs_weap_smaw_rhs_weap_optic_smaw","Put","Throw"};
-    items[]={"ItemAndroid","ItemcTab","ACRE_PRC152","ACRE_PRC343"};
-    respawnItems[]={"ItemAndroid","ItemcTab","ACRE_PRC152","ACRE_PRC343"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_smaw_HEAA","rhs_mag_smaw_SR"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_smaw_HEAA","rhs_mag_smaw_SR"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ACE_VectorDay","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -520,8 +521,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"ACE_VectorDay","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_su230a_mrdsrhsusf_acc_grip3","Put","Throw"};
     respawnWeapons[]={"ACE_VectorDay","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_su230a_mrdsrhsusf_acc_grip3","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_smaw_HEAA","rhs_mag_smaw_HEAA"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_smaw_HEAA","rhs_mag_smaw_HEAA"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ACE_VectorDay","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -537,8 +538,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_hk416d145_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
     respawnWeapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_hk416d145_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
-    items[]={"ItemcTab","ItemAndroid","ACRE_PRC152","ACRE_PRC343"};
-    respawnItems[]={"ItemcTab","ItemAndroid","ACRE_PRC152","ACRE_PRC343"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","SmokeShellPurple","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","SmokeShellPurple","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","rhsusf_bino_lerca_1200_black","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -554,8 +555,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"ACE_VectorDay","NPC_rhs_weap_m4a1_blockII_bk_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMRrhsusf_acc_grip2","NPC_rhs_weap_M136","Put","Throw"};
     respawnWeapons[]={"ACE_VectorDay","NPC_rhs_weap_m4a1_blockII_bk_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMRrhsusf_acc_grip2","NPC_rhs_weap_M136","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ACE_VectorDay","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -571,8 +572,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"ACE_VectorDay","NPC_rhs_weap_mk18_KAC_bk_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
     respawnWeapons[]={"ACE_VectorDay","NPC_rhs_weap_mk18_KAC_bk_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid","ToolKit"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid","ToolKit"};
+    items[]={"ACRE_PRC152","ACRE_PRC343","ToolKit"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343","ToolKit"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellGreen"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellGreen"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ACE_VectorDay","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -588,8 +589,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"ACE_VectorDay","NPC_rhs_weap_mk18_KAC_bk_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
     respawnWeapons[]={"ACE_VectorDay","NPC_rhs_weap_mk18_KAC_bk_rhsusf_acc_nt4_tanrhsusf_acc_ACOG_RMRrhsusf_acc_kac_grip","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShellRed","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","IEDUrbanSmall_Remote_Mag","IEDUrbanSmall_Remote_Mag","IEDUrbanBig_Remote_Mag"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","IEDUrbanSmall_Remote_Mag","IEDUrbanSmall_Remote_Mag","IEDUrbanBig_Remote_Mag"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ACE_VectorDay","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -607,8 +608,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"NPC_rhs_weap_m249_pip_rhsusf_acc_saw_bipod","NPC_hlc_pistol_P226R_HLC_Optic_Romeo1_RX","Put","Throw"};
     respawnWeapons[]={"NPC_rhs_weap_m249_pip_rhsusf_acc_saw_bipod","NPC_hlc_pistol_P226R_HLC_Optic_Romeo1_RX","Put","Throw"};
-    items[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
-    respawnItems[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"hlc_15Rnd_9x19_B_P226","hlc_15Rnd_9x19_B_P226","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67"};
     respawnMagazines[]={"hlc_15Rnd_9x19_B_P226","hlc_15Rnd_9x19_B_P226","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","FPGP_2_OpscoreMar_Snakeskin_Tan_ct_2","FPGP_PC_Tan_7","rhsusf_shemagh2_gogg_tan"};
@@ -624,8 +625,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","Put","Throw"};
     respawnWeapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","Put","Throw"};
-    items[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
-    respawnItems[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","rhsusf_bino_lerca_1200_black","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_6","rhsusf_shemagh2_gogg_tan"};
@@ -641,8 +642,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","Put","Throw"};
     respawnWeapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","Put","Throw"};
-    items[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
-    respawnItems[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","rhsusf_bino_lerca_1200_black","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_6","rhsusf_shemagh2_gogg_tan"};
@@ -658,8 +659,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_hk416d10_m320_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMR","Put","Throw"};
     respawnWeapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_hk416d10_m320_rhsusf_acc_nt4_blackrhsusf_acc_ACOG_RMR","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","HandGrenade","HandGrenade","ACE_Chemlight_HiWhite","ACE_Chemlight_HiWhite"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","SmokeShell","SmokeShell","HandGrenade","HandGrenade","ACE_Chemlight_HiWhite","ACE_Chemlight_HiWhite"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","rhsusf_bino_lerca_1200_black","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -675,8 +676,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","Put","Throw"};
     respawnWeapons[]={"rhsusf_bino_lerca_1200_black","NPC_rhs_weap_m27iar_rhsusf_acc_nt4_blackrhsusf_acc_g33_xps3rhsusf_acc_kac_grip","Put","Throw"};
-    items[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
-    respawnItems[]={"ACRE_PRC152","ACRE_PRC343","ItemcTab","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch","rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","rhsusf_bino_lerca_1200_black","FPGP_2_OpscoreMar_Snakeskin_Tan_Amp_2","FPGP_PC_Tan_6","rhsusf_shemagh2_gogg_tan"};
@@ -692,8 +693,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt2_1_U";
     weapons[]={"ACE_VectorDay","NPC_rhs_weap_hk416d10_LMT_rhsusf_acc_nt4_tanrhsusf_acc_eotech_552","Put","Throw"};
     respawnWeapons[]={"ACE_VectorDay","NPC_rhs_weap_hk416d10_LMT_rhsusf_acc_nt4_tanrhsusf_acc_eotech_552","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellGreen"};
     respawnMagazines[]={"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull","SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellGreen"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ACE_VectorDay","FPGP_2_OpscoreMar_Snakeskin_blk_ct_2","FPGP_PC_Tan_3","rhsusf_shemagh2_gogg_tan"};
@@ -709,8 +710,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_flannel_1_U";
     weapons[]={"ACE_VectorDay","NPC_rhs_weap_hk416d10_LMT_rhsusf_acc_nt4_blackrhsusf_acc_anpeq15side_bkrhsusf_acc_eotech_552","Put","Throw"};
     respawnWeapons[]={"ACE_VectorDay","NPC_rhs_weap_hk416d10_LMT_rhsusf_acc_nt4_blackrhsusf_acc_anpeq15side_bkrhsusf_acc_eotech_552","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellGreen"};
     respawnMagazines[]={"SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellGreen"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ACE_VectorDay","rhsusf_hgu56p_visor_green","rhsusf_shemagh_tan"};
@@ -726,8 +727,8 @@ class cfgVehicles
     uniformClass="FPGP2_Uni_Cryepants_khk_Shirt1_1_U";
     weapons[]={"ACE_VectorDay","NPC_rhs_weap_hk416d10_LMT_rhsusf_acc_nt4_blackrhsusf_acc_anpeq15side_bkrhsusf_acc_eotech_552","Put","Throw"};
     respawnWeapons[]={"ACE_VectorDay","NPC_rhs_weap_hk416d10_LMT_rhsusf_acc_nt4_blackrhsusf_acc_anpeq15side_bkrhsusf_acc_eotech_552","Put","Throw"};
-    items[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
-    respawnItems[]={"ItemcTab","ACRE_PRC152","ACRE_PRC343","ItemAndroid"};
+    items[]={"ACRE_PRC152","ACRE_PRC343"};
+    respawnItems[]={"ACRE_PRC152","ACRE_PRC343"};
     magazines[]={"SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellGreen"};
     respawnMagazines[]={"SmokeShell","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellRed","SmokeShellRed","ACE_Chemlight_HiWhite","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellGreen"};
     linkedItems[]={"ItemMap","ItemCompass","Itemwatch","ACE_VectorDay","FPGP_2_OpscoreMar_Snakeskin_blk_Ct_1","rhsusf_shemagh2_gogg_tan"};
@@ -1022,11 +1023,7 @@ class cfgVehicles
      class _xx_rhsusf_200Rnd_556x45_M855_mixed_soft_pouch {count=1;magazine="rhsusf_200Rnd_556x45_M855_mixed_soft_pouch";};
      class _xx_rhs_mag_m67 {count=3;magazine="rhs_mag_m67";};
     };
-    class TransportItems
-    {
-     class _xx_ItemcTab {count=1;name="ItemcTab";};
-     class _xx_ItemAndroid {count=1;name="ItemAndroid";};
-    };
+    class TransportItems{};
     class TransportWeapons{};
   };
 
@@ -1042,11 +1039,7 @@ class cfgVehicles
      class _xx_rhs_mag_m67 {count=3;magazine="rhs_mag_m67";};
      class _xx_rhsusf_200Rnd_556x45_M855_mixed_soft_pouch {count=3;magazine="rhsusf_200Rnd_556x45_M855_mixed_soft_pouch";};
     };
-    class TransportItems
-    {
-     class _xx_ItemcTab {count=1;name="ItemcTab";};
-     class _xx_ItemAndroid {count=1;name="ItemAndroid";};
-    };
+    class TransportItems{};
     class TransportWeapons{};
   };
 
@@ -1062,11 +1055,7 @@ class cfgVehicles
      class _xx_rhs_mag_m67 {count=3;magazine="rhs_mag_m67";};
      class _xx_rhsusf_200Rnd_556x45_M855_mixed_soft_pouch {count=3;magazine="rhsusf_200Rnd_556x45_M855_mixed_soft_pouch";};
     };
-    class TransportItems
-    {
-     class _xx_ItemcTab {count=1;name="ItemcTab";};
-     class _xx_ItemAndroid {count=1;name="ItemAndroid";};
-    };
+    class TransportItems{};
     class TransportWeapons{};
   };
 
@@ -1096,11 +1085,7 @@ class cfgVehicles
      class _xx_rhs_mag_m67 {count=3;magazine="rhs_mag_m67";};
      class _xx_rhsusf_200Rnd_556x45_M855_mixed_soft_pouch {count=3;magazine="rhsusf_200Rnd_556x45_M855_mixed_soft_pouch";};
     };
-    class TransportItems
-    {
-     class _xx_ItemcTab {count=1;name="ItemcTab";};
-     class _xx_ItemAndroid {count=1;name="ItemAndroid";};
-    };
+    class TransportItems{};
     class TransportWeapons{};
   };
 

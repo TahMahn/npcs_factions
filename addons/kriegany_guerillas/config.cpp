@@ -6,6 +6,7 @@ class cfgPatches
     weapons[]={"NPC_hlc_rifle_hk33a2RIS_hlc_muzzle_E1_FlashHiderACE_DBAL_A3_Redrhsusf_acc_g33_xps3","NPC_hlc_pistol_P226R_Elite_hlc_acc_TLR1","NPC_rhs_weap_rpg7_rhs_acc_pgo7v2","NPC_rhs_weap_igla","NPC_hlc_rifle_hk33a2RIS_GL_hlc_muzzle_E1_FlashHiderACE_DBAL_A3_Redrhsusf_acc_g33_xps3","NPC_hlc_rifle_g3a3ris_hlc_muzzle_MAG58_Brakehlc_optic_LeupoldM3A","NPC_hlc_rifle_awcovert_rhsusf_acc_nxs_5522x56_md_sun","NPC_hlc_lmg_minimi_railed_hlc_muzzle_E1_FlashHideroptic_Holosight_blk_F","NPC_hlc_lmg_mk48_rhsusf_acc_ARDEC_M240rhsusf_acc_ELCANbipod_01_F_blk","NPC_hlc_smg_mp5N_tac"};
     requiredVersion=0.1;
     requiredAddons[]={"acre_sys_bf888s","A3_Weapons_F","hlcweapons_g3","niaweapons_226","po_factions_me","rhsgref_c_troops","A3_Weapons_F_Items","rhs_c_weapons","hlcweapons_FHAWCovert","hlcweapons_SAW","hlcweapons_mp5","rhsusf_c_troops"};
+    skipWhenMissingDependencies = 1;
   };
 };
 

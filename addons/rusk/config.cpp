@@ -6,6 +6,7 @@ class cfgPatches
     weapons[]={"NPC_hlc_rifle_aku12_rhs_acc_dtk1983HLC_optic_DocterR","NPC_rhs_weap_6p53","NPC_hlc_rifle_ak12_rhs_acc_dtk1983rhs_acc_perst3rhs_acc_okp7_picatinny","NPC_hlc_rifle_ak12_rhs_acc_dtk1983rhs_acc_perst3hlc_optic_ATACR_Offset","NPC_hlc_rifle_ak12GL_rhs_acc_dtk1983rhs_acc_perst3rhs_acc_okp7_picatinny","NPC_rhs_weap_rpg7","NPC_rhs_weap_igla","NPC_hlc_rifle_RPK12_rhs_acc_dtk1983rhs_acc_perst3rhs_acc_okp7_picatinny","NPC_rhs_weap_pkp_rhs_acc_pkas","NPC_rhs_weap_makarov_pm","NPC_rhs_weap_svdp_npz_rhs_acc_tgpvrhsusf_acc_M8541_low","NPC_rhs_weap_t5000_rhsusf_acc_nxs_5522x56_md_sunrhs_acc_harris_swivel","NPC_rhs_weap_aks74u_rhs_acc_pgs64_74u"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F_Items","A3_Weapons_F","A3_Weapons_F_Mark","hlcweapons_aks","rhs_c_weapons","rhs_c_troops","acre_sys_prc343","A3_Drones_F_Weapons_F_Gamma_Items","A3_Weapons_F_Exp","A3_Characters_F"};
+    skipWhenMissingDependencies = 1;
   };
 };
 

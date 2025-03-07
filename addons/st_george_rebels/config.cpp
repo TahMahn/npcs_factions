@@ -6,6 +6,7 @@ class cfgPatches
     weapons[]={"NPC_rhs_weap_makarov_pm","NPC_rhs_weap_akm_gp25_rhs_acc_dtkakm","NPC_rhs_weap_m70b1","NPC_rhs_weap_akm_rhs_acc_dtkakm","NPC_rhs_weap_m1garand_sa43","NPC_rhs_weap_pm63_rhs_acc_dtkakm","NPC_rhs_weap_rpg75","NPC_rhs_weap_akms_gp25_rhs_acc_dtkakm","NPC_rhs_weap_akms_rhs_acc_dtkakm","NPC_rhs_weap_rpg7","NPC_rhs_weap_aks74u_rhs_acc_pgs64_74u","NPC_rhs_weap_svdp_wd_rhs_acc_pso1m21","NPC_rhs_weap_savz61","NPC_rhs_weap_l1a1_wood_rhsgref_acc_falMuzzle_l1a1","NPC_hlc_rifle_aks74u_rhs_acc_dtk2"};
     requiredVersion=0.1;
     requiredAddons[]={"A3_Weapons_F","rhs_c_weapons","rhsgref_c_troops","rhs_c_troops","po_factions_fic","A3_Weapons_F_Items","po_factions_eu","rhsgref_c_weapons","A3_Characters_F","A3_Characters_F_Orange_Headgear","hlcweapons_aks"};
+    skipWhenMissingDependencies = 1;
   };
 };
 
